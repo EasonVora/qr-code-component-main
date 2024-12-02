@@ -35,7 +35,7 @@ body {
     }
 }
 
-/* Group - QR code, h3, p */
+/* Group - QR code, h1, p */
 #code-title-text {
     background-color: hsl(0, 0%, 100%); 
     border-radius: 5%;

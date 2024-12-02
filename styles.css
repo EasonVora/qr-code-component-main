@@ -1,25 +1,47 @@
+
 body {
     background-color: hsl(212, 45%, 89%);
     height: 100vh;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    align-items: last baseline;
 }
-#qrcode {
-    border-radius: 5%;
-    margin: 10px;
-    width: 90%;
+
+/* Screen adjustments */
+@media screen and (max-width: 300px) {
+    #code-title-text {
+        width: 100%;
+    }
+}
+@media screen and (min-width: 300px) {
+    #code-title-text {
+        width: 70%;
+    }
 }
 @media screen and (min-width: 500px) {
     #code-title-text {
         width: 50%;
     }
 }
+@media screen and (min-width: 750px) {
+    #code-title-text {
+        width: 40%;
+    }
+}
+@media screen and (min-width: 1000px) {
+    #code-title-text {
+        width: 50%;
+    }
+}
+
+/* Group - QR code, h3, p */
 #code-title-text {
     border-radius: 5%;
     background-color: hsl(0, 0%, 100%);
     text-align: center;
     margin: auto;
+    display: block;
 }
 #code-title-text h3, #code-title-text p {
     width: 80%; 
@@ -38,9 +60,14 @@ body {
     font-size: 15px;
     padding-bottom: 25px;
 }
-.attribution {
-    margin-bottom: 10px;
-    position: fixed;
-    bottom: 0;
+#qrcode {
+    border-radius: 5%;
+    margin: 10px;
+    width: 90%;
+}
 
+/* Footer */
+.attribution {
+    margin-bottom: 0px;
+    width: 100%;
 }

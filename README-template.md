@@ -27,67 +27,69 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://easonvora.github.io/qr-code-component-main/]
 
 ## My process
+1. Make IDs and classes.
+2. Design [#code-text-title] (box sizes, border radius, font family, typography, colors)
+3. Learn how to use [flexbox].
+4. Use flexbox to center [#code-title-text] vertically and horizontally.
+5. Learn how to use [@media min-width].
+6. Use [@media min-width] to adjust [#code-text-title] width on different viewport/screen sizes.
+7. Test screen sizes.
+8. Adjust and added more [@media min-width] to make the transitions smoother.
+9. Retest different screen sizes, expanding testing range.
+10. Redjust and added more [@media min-width] to make the transitions smoother.
+11. Adjust footer [div.attribution] to be at the bottom of the page (FAILED)
+12. Readjust [flexbox] and added [main] element around [#code-text-title], but leaving out [.attribution]
+13. Add flex wrap to [body] element and changed the [align-items] attribute value from [center] to [last baseline] while exploring different autofill codes for [align-items] values. ([.attribution] placement SUCCESSFUL)
 
 ### Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
+- Semantic HTML5
+- CSS
 - Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+- Media Query
+- VSCode
+- GitHub
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+1. Flexbox
+    ```
+    body {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: last baseline;
+        height: 100vh;
+    }
+    ```
+2. Media Query
+    ```
+    @media screen and (min-width: 500px) {
+        #code-title-text {
+            width: 50%;
+        }
+    }
+    ```
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+1. Flexbox
+2. Media Query
+3. Grid
+4. Responsive Design
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [Chat GPT] Explained how to use flexbox and media query in (too much) detail, showed examples
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
+- Website - [Eason Vora](https://www.your-site.com)
 - Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+- LinkedIn - [Eason Vora]()
 
 ## Acknowledgments
 

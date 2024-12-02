@@ -1,11 +1,11 @@
 
 body {
     background-color: hsl(212, 45%, 89%);
-    height: 100vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: last baseline;
+    height: 100vh;
 }
 
 /* Screen adjustments */
@@ -37,17 +37,16 @@ body {
 
 /* Group - QR code, h3, p */
 #code-title-text {
+    background-color: hsl(0, 0%, 100%); 
     border-radius: 5%;
-    background-color: hsl(0, 0%, 100%);
     text-align: center;
-    margin: auto;
     display: block;
+    margin: auto;
 }
 #code-title-text h3, #code-title-text p {
+    font-family: "Outfit", sans-serif;  
     width: 80%; 
     margin: auto;
-    font-family: "Outfit", sans-serif;
-    
 }
 #code-title-text h3 {
     color:  hsl(218, 44%, 22%);
@@ -60,14 +59,15 @@ body {
     font-size: 15px;
     padding-bottom: 25px;
 }
+
 #qrcode {
     border-radius: 5%;
-    margin: 10px;
     width: 90%;
+    margin: 10px;
 }
 
 /* Footer */
 .attribution {
-    margin-bottom: 0px;
     width: 100%;
+    margin-bottom: 0px;
 }

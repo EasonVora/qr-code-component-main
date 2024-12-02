@@ -43,14 +43,15 @@ body {
     display: block;
     margin: auto;
 }
-#code-title-text h3, #code-title-text p {
+#code-title-text h1, #code-title-text p {
     font-family: "Outfit", sans-serif;  
     width: 80%; 
     margin: auto;
 }
-#code-title-text h3 {
+#code-title-text h1 {
     color:  hsl(218, 44%, 22%);
     font-weight: 700;
+    font-size: 19.2px; /* Value converted from [font-size: large;] */
     margin-bottom: 15px;
 }
 #code-title-text p {

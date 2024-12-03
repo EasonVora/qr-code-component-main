@@ -83,7 +83,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ## Author
 
-- Website - [Eason Vora](https://www.your-site.com)
+- GitHub - [@EasonVora](https://github.com/EasonVora)
 - Frontend Mentor - [@EasonVora](https://www.frontendmentor.io/profile/EasonVora)
 - LinkedIn - [Eason Vora](https://www.linkedin.com/in/eason-vora-5a043b262/)
 
